@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3E4ED"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textViewStyle"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="E-AVTOMAKTAB"
+
+        android:textFontWeight="600"
+        android:textSize="40dp" />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="ASOSIY  BET"
+        android:onClick="asosiyBet"
+        />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:onClick="testlar"
+        android:text="TESTLAR"
+         />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        android:onClick="davomad"
+        style="@style/mainpageButtonStyle"
+        android:text="DAVOMAD"
+       />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        android:onClick="ozlashtirish"
+        android:text="OZLASHTIRISH"
+        style="@style/mainpageButtonStyle" />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        android:onClick="darsJadvali"
+        android:text="DARS  JADVALI"
+        style="@style/mainpageButtonStyle"/>
+
+
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="OQUV  QOLLANMA"
+        android:onClick="oquvQollanma"
+       />
+</LinearLayout>

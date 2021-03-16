@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/yol"
+    tools:context=".Testlat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="70dp"
+        android:text="TESTLAR"
+        android:textColor="#483c32"/>
+
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="NAZARIY  TESTLAR"
+        android:backgroundTint="#64e986"
+        />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="DAN XODIMI BELGILARI"
+        android:background="#50ebec"
+        />
+
+
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="XOLAT  TESTLARI"
+        android:background="#ffff00"
+        />
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="YOL  BELGILARI"
+        android:background="#e4287c"
+        />
+    <Button
+
+        android:layout_height="wrap_content"
+        style="@style/mainpageButtonStyle"
+        android:text="ORQAGA"
+        android:onClick="orqaga"
+
+        />
+</LinearLayout>

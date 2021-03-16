@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F0F8FF"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AsosiyBet">
+
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATISTIKA" />
+
+
+    <HorizontalScrollView
+       style="@style/scrollViewStyle"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/scrollViewStyle"
+            android:padding="5dp">
+               <LinearLayout
+                 style="@style/cardsStyle">
+                   <ImageView
+                     style="@style/imageStyle"
+                       android:src="@drawable/staff" />
+
+                   <TextView
+                       android:text="4706"
+                       style="@style/textViewStyle" />
+
+                   <TextView
+                       android:text="XODIMLAR"
+                       style="@style/textViewStyle"
+                       android:textSize="20dp"/>
+
+               </LinearLayout>
+
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/building" />
+
+                <TextView
+                    android:text="218"
+                    style="@style/textViewStyle" />
+
+                <TextView
+                    android:text="AVTOMAKTABLAR"
+                    style="@style/textViewStyle"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/group" />
+
+                <TextView
+                    android:text="2929"
+                    style="@style/textViewStyle" />
+
+                <TextView
+                    android:text="GURUXLAR"
+                    style="@style/textViewStyle"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/student" />
+
+                <TextView
+                    android:text="78655"
+                    style="@style/textViewStyle" />
+
+                <TextView
+                    android:text="OQUVCHILAR"
+                    style="@style/textViewStyle"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAMKORLAR" />
+
+    <HorizontalScrollView
+        style="@style/scrollViewStyle"
+        android:layout_weight="1">
+
+        <LinearLayout
+            style="@style/scrollViewStyle"
+            android:padding="5dp">
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/tatu" />
+
+                <TextView
+                    android:text="TATU"
+                    style="@style/textViewStyle" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/insta" />
+
+                <TextView
+                    android:text="iNSTAGRAM"
+                    style="@style/textViewStyle" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/youtube" />
+
+                <TextView
+                    android:text="YOUTUBE"
+                    style="@style/textViewStyle" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/facebook" />
+
+                <TextView
+                    android:text="FACEBOOK"
+                    style="@style/textViewStyle" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/cardsStyle">
+                <ImageView
+                    style="@style/imageStyle"
+                    android:src="@drawable/itpark" />
+
+                <TextView
+                    android:text="ITPARK"
+                    style="@style/textViewStyle" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+
+        style="@style/mainpageButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="orqaga"
+        android:text="ORQAGA" />
+    />
+</LinearLayout>
